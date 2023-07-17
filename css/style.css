@@ -40,3 +40,18 @@ body {
     font-size: 1.4rem;
     margin-bottom: 1.4rem;
 }
+.hero{
+    height: 450px;
+    background-image: url(../img/hero.jpeg);
+    position: relative;
+}
+.hero::after{
+    content: '';
+    background-color: rgba(0, 0, 0, .7);
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
