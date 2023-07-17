@@ -1,0 +1,30 @@
+:root {
+    --mainFont: 'Kurb', sans-serif;
+    --white: #ffffff;
+    --primary: #ffc107;
+    --secondary: #0097A7;
+    --grey: #757575;
+    --dark: #212121;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--mainFont);
+}
+
+.main-navigation {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
